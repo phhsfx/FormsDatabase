@@ -14,6 +14,6 @@ how use:
 2- install a local server (like XAMPP or WAMP and etc)
 3- move the project folder to the htdocs directory
 4- start the Apache server
-5- access the project in the browser at http://localhost/SeuProjeto/Index.html
+5- access the project in the browser at http://localhost/YourProject/Index.html
 
 feel free to contribute improvements, suggestions or corrections ( ' > ' )--b
