@@ -1,0 +1,59 @@
+body {
+
+    font-family: "Afacad Flux", sans-serif;
+    background-color: rgb(108, 118, 91);
+    margin: 0;
+    padding: 20px;
+
+}
+
+.container {
+
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: bisque;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+label {
+
+    display: block;
+    margin: 10px 0 5px;
+
+}
+
+input, textarea {
+
+    width: 100%;
+    padding: 05px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+}
+
+button {
+
+    background-color: #548196;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: rgba(188, 207, 218, 0.748);
+
+}
+

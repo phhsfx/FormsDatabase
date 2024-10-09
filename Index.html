@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonte -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Enviar Feedback</h1>
+        <form id="feedbackForm">
+            <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback" required></textarea>
+
+                    <button type="submit">Enviar</button>
+
+        </form>
+
+            <div id="responseMessage"></div>
+
+    </div>
+
+    
+    <script src="Java.js"></script>
+
+</body>
+</html>
